@@ -3,7 +3,7 @@ A python client library wrapper for EazyML's REST API.
 
 Supports Python 2.x only. Python 3 support coming soon.
 
-Full API documentation can be found at https://www.eazyml.com/docs
+Full API documentation can be found at https://www.eazyml.com/appdocs
 
 # Getting Started
 
