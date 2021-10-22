@@ -84,7 +84,7 @@ def ez_auth(username, password):
         response_json["status_code"] = status_code
         return response_json
     except Exception as e:
-        print((traceback.print_exc()))
+        traceback.print_exc()
         return exception_return(e, status_code)
 
 
@@ -157,7 +157,7 @@ def ez_sentiments(auth_token, filename = None,  text_columns = None, text = None
         response_json["status_code"] = status_code
         return response_json
     except Exception as e:
-        print((traceback.print_exc()))
+        traceback.print_exc()
         return exception_return(e, status_code)
 
 
@@ -235,7 +235,7 @@ def ez_concepts(auth_token, phrases, filename = None,  text_columns = None, text
         response_json["status_code"] = status_code
         return response_json
     except Exception as e:
-        print((traceback.print_exc()))
+        traceback.print_exc()
         return exception_return(e, status_code)
 
 
@@ -308,6 +308,6 @@ def ez_topics(auth_token, filename = None,  text_columns = None, text = None, op
         response_json["status_code"] = status_code
         return response_json
     except Exception as e:
-        print((traceback.print_exc()))
+        traceback.print_exc()
         return exception_return(e, status_code)
 
